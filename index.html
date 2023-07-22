@@ -3,10 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors</title>
-    
+    <title>Rock, Paper, Scissors</title>  
 </head>
+
 <body>
-    <script src="./rps.js"></script>
+    <div class="computerschoice">   
+        <h1>
+            Rock, Paper, Scissors!
+        </h1>
+        <script src="./rps.js"></script>
+    </div>
+
+         <div class="userselection">
+
+            <button onclick="pickRock()">
+                Rock
+             </button>
+
+            <button onclick="pickPaper()">
+                Paper
+            </button>
+
+            <button onclick="pickScissors()">
+               Scissors
+            </button>
+
+        <div id="result"></div>
+
+        <div id="computerChoice"></div>
+
+            </div>
+
+    <div class="score">
+
+    </div>
 </body>
+
 </html>
